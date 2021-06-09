@@ -1,1 +1,103 @@
+* {
+    box-sizing:border-box;
+}
 
+nav {
+    padding-bottom: 15px;
+}
+
+nav ul {
+    background-color:#404040 ;
+    width: 100%;
+    padding: 15px;
+    position: relative;
+    height: 100px;
+    text-align: center;
+}
+
+nav ul li {
+
+    display: inline-block;
+    padding : 27px;
+    padding-left: 30px;
+    position: relative;
+    bottom: 30px;
+
+
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+div {
+
+    width: 100%;
+    text-align: center;
+    padding : 15px;
+
+}
+
+div img {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+section {
+    width: 100%;
+    padding-top :15px;
+    text-align: center;
+    position: relative;
+}
+
+section article {
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+    font-size: 18px;
+    overflow: scroll;
+    height: 320px;
+}
+
+footer {
+
+    background-color: #404040;
+    height: 100px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0px;
+    clear:both ;
+
+}
+
+section div {
+    display: inline-block;
+    height : 375px;
+    width:27%;
+    padding-left: 50px;
+    position: relative;
+    bottom: 100px;
+    
+
+}
+
+section div button{
+    float: left;
+    display: block;
+    font-size: 20px;
+    padding:10px;
+    width : 300px;
+    margin-top: 25px;
+    border-radius: 8px;
+    
+}
+
+div article h3 {
+    font-size: 30px;
+    font-weight:bold ;
+    margin-bottom: 10px;
+}
